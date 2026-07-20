@@ -8,7 +8,7 @@
 
   <meta
     name="description"
-    content="Sida Ye is a computational biologist working on pathogen functional genomics, host–microbe interactions, transposon mutagenesis, and machine learning."
+    content="Sida Ye is a computational biologist studying pathogen functional genomics, host–microbe interactions, transposon mutagenesis, and machine learning."
   >
 
   <style>
@@ -20,8 +20,8 @@
       --border: #e3e6e8;
       --soft: #f7f9fa;
       --white: #ffffff;
-      --page-width: 1110px;
-      --content-width: 735px;
+      --page-width: 1120px;
+      --content-width: 750px;
     }
 
     * {
@@ -43,8 +43,8 @@
         Helvetica,
         Arial,
         sans-serif;
-      font-size: 16px;
-      line-height: 1.72;
+      font-size: 15.5px;
+      line-height: 1.5;
     }
 
     a {
@@ -67,18 +67,18 @@
 
     .header-inner {
       max-width: var(--page-width);
-      min-height: 68px;
+      min-height: 64px;
       margin: 0 auto;
       padding: 0 24px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 32px;
+      gap: 28px;
     }
 
     .site-title {
       color: var(--text);
-      font-size: 1.22rem;
+      font-size: 1.2rem;
       font-weight: 650;
       letter-spacing: -0.015em;
     }
@@ -92,8 +92,8 @@
       display: flex;
       align-items: center;
       flex-wrap: wrap;
-      gap: 23px;
-      font-size: 0.93rem;
+      gap: 20px;
+      font-size: 0.91rem;
     }
 
     .nav a {
@@ -108,10 +108,10 @@
     .layout {
       max-width: var(--page-width);
       margin: 0 auto;
-      padding: 60px 24px 70px;
+      padding: 45px 24px 60px;
       display: grid;
       grid-template-columns: minmax(0, var(--content-width)) 270px;
-      gap: 72px;
+      gap: 68px;
       align-items: start;
     }
 
@@ -120,48 +120,48 @@
     }
 
     .intro-name {
-      margin: 0 0 20px;
+      margin: 0 0 13px;
       color: #202428;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 2.5rem;
+      font-size: 2.45rem;
       font-weight: 500;
-      line-height: 1.15;
+      line-height: 1.1;
       letter-spacing: -0.025em;
     }
 
     h2 {
-      margin: 42px 0 14px;
-      padding-bottom: 7px;
+      margin: 30px 0 10px;
+      padding-bottom: 5px;
       border-bottom: 1px solid var(--border);
       color: #2d3237;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 1.32rem;
+      font-size: 1.3rem;
       font-weight: 500;
-      line-height: 1.3;
+      line-height: 1.25;
     }
 
     h3 {
-      margin: 25px 0 7px;
+      margin: 17px 0 4px;
       color: #2c3136;
       font-size: 1rem;
       font-weight: 680;
     }
 
     p {
-      margin: 0 0 15px;
+      margin: 0 0 8px;
     }
 
     ul {
-      margin: 9px 0 18px;
-      padding-left: 22px;
+      margin: 6px 0 10px;
+      padding-left: 21px;
     }
 
     li {
-      margin-bottom: 7px;
+      margin-bottom: 4px;
     }
 
     .lead {
-      font-size: 1.03rem;
+      font-size: 1.01rem;
     }
 
     .research-list strong {
@@ -169,58 +169,72 @@
     }
 
     .publication {
-      margin-bottom: 20px;
+      margin-bottom: 13px;
     }
 
     .publication-title {
       color: #30353a;
       font-weight: 650;
+      line-height: 1.46;
     }
 
     .publication-meta {
+      margin-top: 2px;
       color: var(--muted);
-      font-size: 0.94rem;
+      font-size: 0.91rem;
     }
 
     .small-note {
       color: var(--muted);
-      font-size: 0.92rem;
+      font-size: 0.9rem;
     }
 
     .timeline-item {
-      margin-bottom: 17px;
+      margin-bottom: 12px;
     }
 
     .timeline-item strong {
       display: block;
       color: #30353a;
+      line-height: 1.4;
     }
 
     .timeline-date {
+      margin-top: 2px;
       color: var(--muted);
-      font-size: 0.92rem;
+      font-size: 0.9rem;
     }
 
     .resource-box {
-      margin: 17px 0;
-      padding: 17px 19px;
+      margin: 11px 0;
+      padding: 13px 16px;
       background: var(--soft);
       border-left: 3px solid var(--accent);
     }
 
     .resource-box strong {
       display: block;
-      margin-bottom: 4px;
+      margin-bottom: 2px;
+    }
+
+    .project {
+      margin-bottom: 13px;
+    }
+
+    .project-title {
+      margin-bottom: 2px;
+      color: #30353a;
+      font-weight: 680;
     }
 
     .sidebar {
       position: sticky;
-      top: 98px;
+      top: 88px;
     }
 
     .portrait-photo {
       width: 100%;
-      aspect-ratio: 1 / 1.13;
+      aspect-ratio: 4 / 5;
       display: block;
       object-fit: cover;
       object-position: center top;
@@ -229,7 +243,9 @@
     }
 
     .sidebar-name {
-      margin: 20px 0 3px;
+      margin: 17px 0 2px;
+      padding: 0;
+      border: 0;
       color: #272c31;
       font-family: Georgia, "Times New Roman", serif;
       font-size: 1.38rem;
@@ -237,22 +253,31 @@
     }
 
     .sidebar-role {
-      margin: 0 0 16px;
+      margin: 0 0 13px;
       color: var(--muted);
-      font-size: 0.93rem;
-      line-height: 1.5;
+      font-size: 0.92rem;
+      line-height: 1.43;
     }
 
     .sidebar-section {
-      margin-top: 23px;
-      padding-top: 19px;
+      margin-top: 18px;
+      padding-top: 15px;
       border-top: 1px solid var(--border);
     }
 
     .sidebar-heading {
-      margin: 0 0 10px;
+      margin: 0 0 8px;
+      padding: 0;
+      border: 0;
       color: #41474d;
-      font-size: 0.81rem;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Helvetica,
+        Arial,
+        sans-serif;
+      font-size: 0.79rem;
       font-weight: 720;
       letter-spacing: 0.08em;
       text-transform: uppercase;
@@ -260,37 +285,38 @@
 
     .sidebar-links {
       display: grid;
-      gap: 8px;
-      font-size: 0.93rem;
+      gap: 6px;
+      font-size: 0.92rem;
     }
 
     .sidebar-location {
       margin: 0;
       color: var(--muted);
-      font-size: 0.92rem;
+      font-size: 0.91rem;
+      line-height: 1.5;
     }
 
     .footer {
       border-top: 1px solid var(--border);
       color: var(--muted);
-      font-size: 0.88rem;
+      font-size: 0.86rem;
     }
 
     .footer-inner {
       max-width: var(--page-width);
       margin: 0 auto;
-      padding: 24px;
+      padding: 20px 24px;
     }
 
-    @media (max-width: 850px) {
+    @media (max-width: 880px) {
       .layout {
         grid-template-columns: 1fr;
-        gap: 45px;
+        gap: 35px;
       }
 
       .sidebar {
         position: static;
-        max-width: 310px;
+        max-width: 300px;
         grid-row: 1;
       }
 
@@ -299,25 +325,25 @@
       }
     }
 
-    @media (max-width: 650px) {
+    @media (max-width: 680px) {
       .header-inner {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 13px;
+        padding-bottom: 13px;
         align-items: flex-start;
         flex-direction: column;
-        gap: 10px;
+        gap: 8px;
       }
 
       .nav {
-        gap: 14px;
+        gap: 12px;
       }
 
       .layout {
-        padding-top: 38px;
+        padding-top: 30px;
       }
 
       .intro-name {
-        font-size: 2.15rem;
+        font-size: 2.1rem;
       }
     }
   </style>
@@ -335,10 +361,11 @@
       <nav class="nav" aria-label="Main navigation">
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
-        <a href="#resources">Resources</a>
+        <a href="#projects">Projects</a>
         <a href="#presentations">Presentations</a>
+        <a href="#service">Service</a>
         <a href="#education">Education</a>
-        <a href="Sida_Ye_CV.pdf" target="_blank">CV</a>
+        <a href="Sida_Ye_CV.pdf" target="_blank" rel="noopener">CV</a>
       </nav>
 
     </div>
@@ -350,7 +377,7 @@
 
       <h1 class="intro-name">Sida Ye</h1>
 
-      <h2>Research Interests</h2>
+      <h2>About</h2>
 
       <p class="lead">
         I am a Postdoctoral Scientist at Harvard Medical School,
@@ -359,88 +386,138 @@
       </p>
 
       <p>
-        I develop computational and genome-scale experimental approaches
-        to understand pathogen fitness, gene essentiality, colonization,
-        and drug susceptibility. My work bridges computational biology,
-        microbiology, parasitology, and functional genomics.
+        I am a computational biologist with training in mathematical modeling,
+        machine learning, microbiology, parasitology, and experimental biology.
+        I develop computational and genome-scale experimental approaches to
+        understand pathogen fitness, gene essentiality, colonization, and
+        drug susceptibility.
       </p>
 
-      <p>My research focuses on developing:</p>
+      <p>
+        My current work integrates transposon insertion mutagenesis,
+        statistical modeling, long-read sequencing, epigenomics,
+        trajectory analysis, biological networks, and interactive
+        visualization.
+      </p>
+
+      <h2 id="research">Research Interests</h2>
 
       <ul class="research-list">
 
         <li>
-          <strong>Genome-scale functional-genomics methods</strong>
-          based on transposon insertion mutagenesis.
+          <strong>Pathogen functional genomics:</strong>
+          genome-scale transposon screens and gene-essentiality analysis.
         </li>
 
         <li>
-          <strong>Statistical and machine-learning models</strong>
-          for gene essentiality, fitness, and perturbation-response analysis.
+          <strong>Host–pathogen interactions:</strong>
+          spatiotemporal analysis of bacterial colonization across host tissues.
         </li>
 
         <li>
-          <strong>Spatiotemporal models of pathogen colonization</strong>
-          across host tissues and gastrointestinal environments.
+          <strong>Apicomplexan parasite biology:</strong>
+          functional genomics of <em>Plasmodium</em> and <em>Babesia</em>.
         </li>
 
         <li>
-          <strong>Computational pipelines and interactive resources</strong>
-          for long-read sequencing, epigenomics, and multidimensional
-          functional-genomics data.
+          <strong>Computational method development:</strong>
+          statistical learning, machine learning, network biology,
+          and multidimensional data analysis.
+        </li>
+
+        <li>
+          <strong>Multi-omics and long-read genomics:</strong>
+          transcriptomics, epigenomics, structural variation,
+          noncoding RNA, and transposable elements.
         </li>
 
       </ul>
 
-      <h2 id="research">Current Research</h2>
+      <h2 id="projects">Current Research Projects</h2>
 
-      <h3>Pathogen Functional Genomics</h3>
+      <div class="project">
+        <div class="project-title">
+          Spatiotemporal MultiCAST screens of
+          <em>Vibrio cholerae</em> colonization
+        </div>
 
-      <p>
-        My work uses transposon mutagenesis to identify essential genes,
-        conditionally important pathways, and determinants of drug response
-        in <em>Plasmodium knowlesi</em>,
-        <em>Plasmodium falciparum</em>,
-        and <em>Babesia divergens</em>.
-      </p>
+        <p>
+          I lead the computational analysis of genome-scale in vivo
+          MultiCAST screens across gastrointestinal sites and infection
+          time points. The analysis integrates MAGeCK MLE, dynamic time
+          warping, cofitness analysis, graphical Gaussian models,
+          tensor methods, and interactive visualization.
+        </p>
+      </div>
 
-      <h3>Spatiotemporal Host–Microbe Interactions</h3>
+      <div class="project">
+        <div class="project-title">
+          The essential genome of <em>Plasmodium knowlesi</em>
+        </div>
 
-      <p>
-        In the Waldor laboratory, I lead computational analysis of
-        spatiotemporal MultiCAST screens that profile
-        <em>Vibrio cholerae</em> fitness across gastrointestinal sites
-        and infection time points.
-      </p>
+        <p>
+          I led the computational analysis, mathematical modeling,
+          perturbation analysis, and web application development for
+          this genome-scale functional study. I developed multiple
+          insertion-based essentiality models and drug-response pipelines
+          and contributed most of the multidimensional data visualizations.
+        </p>
+      </div>
 
-      <p>
-        The analysis integrates dynamic time warping, cofitness analysis,
-        graphical Gaussian models, tensor decomposition, and
-        multidimensional representation learning.
-      </p>
+      <div class="project">
+        <div class="project-title">
+          Transposon mutagenesis in <em>Babesia divergens</em>
+        </div>
 
-      <h3>Epigenomics and Long-Read Analysis</h3>
+        <p>
+          I constructed transposon mutant libraries, performed cold-shock
+          and drug perturbation screens, and developed computational models
+          for genome-wide gene-essentiality analysis and integration with
+          single-cell RNA sequencing.
+        </p>
+      </div>
 
-      <p>
-        I develop reproducible pipelines for CUT&amp;RUN, ChIP-seq,
-        long-read transcriptomics, structural-variation analysis,
-        transposable-element analysis, and noncoding-RNA discovery
-        in microbial and parasitic systems.
-      </p>
+      <div class="project">
+        <div class="project-title">
+          Inducible transposon mutagenesis in
+          <em>Plasmodium falciparum</em>
+        </div>
+
+        <p>
+          In collaboration with the Prigge laboratory at Johns Hopkins
+          University, I contributed to the design of an inducible
+          transposon-mutagenesis platform and lead its computational analysis.
+        </p>
+      </div>
+
+      <div class="project">
+        <div class="project-title">
+          Epigenetic regulation through lactylation in
+          <em>Plasmodium falciparum</em>
+        </div>
+
+        <p>
+          I developed automated CUT&amp;RUN and ChIP-seq pipelines and
+          statistical models to investigate lactylation-associated
+          gene regulation and parasite sexual commitment.
+        </p>
+      </div>
 
       <h2 id="publications">Selected Publications</h2>
 
       <div class="publication">
 
         <div class="publication-title">
-          Elsworth B*, Ye S*, Dass S*, et al.
+          Elsworth B#, Ye S#, Dass S#, Tennessen JA, Sultana Q,
+          Thommen BT, Paul AS, Kanjee U, Grüring C, Ferreira MU,
+          Gubbels MJ, Zarringhalam K, Duraisingh MT.
           The essential genome of <em>Plasmodium knowlesi</em>
           reveals determinants of antimalarial susceptibility.
         </div>
 
         <div class="publication-meta">
           <em>Science</em>. 2025;387(6734):eadq6241.
-          Co-first author.
+          PMID: 39913579. #Co-first author.
         </div>
 
       </div>
@@ -448,14 +525,17 @@
       <div class="publication">
 
         <div class="publication-title">
-          Keroack CD, Elsworth B, Tennessen JA, et al.
+          Keroack CD, Elsworth B, Tennessen JA, Paul AS, Hua R,
+          Ramirez-Ramirez L, Ye S, Moreira CK, Meyers MJ,
+          Zarringhalam K, Duraisingh MT.
           Comparative chemical genomics in <em>Babesia</em> species
           identifies the alkaline phosphatase PhoD as a determinant
           of antiparasitic resistance.
         </div>
 
         <div class="publication-meta">
-          <em>Proceedings of the National Academy of Sciences</em>. 2024.
+          <em>Proceedings of the National Academy of Sciences</em>.
+          2024;121(9):e2312987121. PMID: 38377214.
         </div>
 
       </div>
@@ -469,7 +549,8 @@
         </div>
 
         <div class="publication-meta">
-          <em>Current Opinion in Microbiology</em>. 2023.
+          <em>Current Opinion in Microbiology</em>.
+          2023;76:102383. PMID: 37898053.
         </div>
 
       </div>
@@ -477,14 +558,16 @@
       <div class="publication">
 
         <div class="publication-title">
-          Wei G, Li S, Ye S, et al.
+          Wei G, Li S, Ye S, Wang Z, Zarringhalam K,
+          He J, Wang W, Shao Z.
           High-resolution small RNA landscape provides insights into
           alkane adaptation in the marine alkane degrader
           <em>Alcanivorax dieselolei</em> B-5.
         </div>
 
         <div class="publication-meta">
-          <em>International Journal of Molecular Sciences</em>. 2022.
+          <em>International Journal of Molecular Sciences</em>.
+          2022;23(24):15995.
         </div>
 
       </div>
@@ -492,29 +575,63 @@
       <div class="publication">
 
         <div class="publication-title">
-          Zheng Y, Wang D, Ye S, et al.
+          Zheng Y, Wang D, Ye S, Chen W, Li G, Xu Z, Bai S, Zhao F.
           Auxin guides germ-cell specification in
           <em>Arabidopsis</em> anthers.
         </div>
 
         <div class="publication-meta">
-          <em>Proceedings of the National Academy of Sciences</em>. 2021.
+          <em>Proceedings of the National Academy of Sciences</em>.
+          2021;118(22):e2101492118.
         </div>
 
       </div>
 
+      <h2>Manuscripts in Preparation</h2>
+
+      <ul>
+
+        <li>
+          Ye S#, Dass S#, Elsworth B#, Paul AS, Zarringhalam K,
+          Duraisingh MT. Uncovering the essentialome of
+          <em>Babesia divergens</em> by piggyBac transposon mutagenesis.
+        </li>
+
+        <li>
+          Kumar M#, Ye S#, Diffendall G#, Zarringhalam K,
+          Duraisingh MT. Lactylation of epigenetic regulators controls
+          gene expression linked to sexual commitment in
+          <em>Plasmodium falciparum</em>.
+        </li>
+
+        <li>
+          Mann A#, Ye S#, Sullivan M, Zarringhalam K, Duraisingh MT.
+          Inducible transposon mutagenesis in
+          <em>Plasmodium falciparum</em> reveals essential genes
+          involved in apicoplast IPP bypass.
+        </li>
+
+        <li>
+          Zingl FG#, Ye S#, Balazs GI, Basta DW, Waldor MK.
+          Spatiotemporal MultiCAST in vivo screens identify dynamic
+          requirements for <em>Vibrio cholerae</em> colonization
+          of the gastrointestinal tract.
+        </li>
+
+      </ul>
+
       <p class="small-note">
-        * Equal contribution.
+        # Equal contribution.
       </p>
 
-      <h2 id="resources">Software and Data Resources</h2>
+      <h2>Software and Data Resources</h2>
 
       <div class="resource-box">
 
         <strong>PkEssenDB</strong>
 
-        An interactive resource for exploring genome-scale essentiality
-        and drug-perturbation data in
+        An interactive platform for exploring genome-scale
+        essentiality and drug-perturbation data in
         <em>Plasmodium knowlesi</em>.
 
         <br>
@@ -531,22 +648,22 @@
 
       <div class="resource-box">
 
-        <strong>Spatiotemporal Pathogen Fitness Analysis</strong>
+        <strong>Spatiotemporal pathogen-fitness analysis</strong>
 
         Computational workflows for trajectory clustering,
-        cofitness networks, graphical Gaussian models,
+        cofitness analysis, graphical Gaussian models,
         tensor representations, and interactive visualization
-        of in vivo fitness landscapes.
+        of in vivo functional-genomics data.
 
       </div>
 
       <div class="resource-box">
 
-        <strong>Parasite Transposon Analysis Pipelines</strong>
+        <strong>Parasite transposon-analysis pipelines</strong>
 
         Statistical and bioinformatics workflows for insertion-site
-        quantification, gene-essentiality inference, and perturbation
-        screens in apicomplexan parasites.
+        quantification, gene-essentiality inference, perturbation
+        analysis, and comparative functional genomics.
 
       </div>
 
@@ -557,56 +674,64 @@
         <li>
           Invited talk:
           “The essential genome of
-          <em>Plasmodium knowlesi</em>
-          reveals determinants of antimalarial susceptibility.”
-          Zhejiang University.
+          <em>Plasmodium knowlesi</em> reveals determinants of
+          antimalarial susceptibility.”
+          University of Hong Kong, March 16, 2025.
         </li>
 
         <li>
-          Invited talk:
+          Invited online talk:
           “The essential genome of
-          <em>Plasmodium knowlesi</em>
-          reveals determinants of antimalarial susceptibility.”
-          Chinese Genomics Meet-up, 2025.
+          <em>Plasmodium knowlesi</em> reveals determinants of
+          antimalarial susceptibility.”
+          Zhejiang University, December 6, 2025.
+        </li>
+
+        <li>
+          Invited online talk:
+          “The essential genome of
+          <em>Plasmodium knowlesi</em> reveals determinants of
+          antimalarial susceptibility.”
+          Chinese Genomics Meet-up, October 22, 2025.
         </li>
 
         <li>
           Poster:
           “Uncovering the essentialome of
-          <em>Babesia divergens</em>
-          by piggyBac transposon mutagenesis.”
+          <em>Babesia divergens</em> by piggyBac transposon mutagenesis.”
           Molecular Parasitology Meeting, 2023.
         </li>
 
+        <li>
+          Poster:
+          “Single-cell transcriptomic analysis of cold-induced
+          quiescence in <em>Babesia divergens</em>.”
+          Molecular Parasitology Meeting, 2022.
+        </li>
+
       </ul>
 
-      <h2>Awards and Recognition</h2>
+      <h2 id="service">Professional Service</h2>
 
       <ul>
-
-        <li>
-          Dean’s Doctoral Research Fellowship,
-          University of Massachusetts Boston, 2025.
-        </li>
-
-        <li>
-          Founder Scholarship,
-          Peking University, 2019.
-        </li>
-
-        <li>
-          First-class Scholarship for Graduate Students,
-          Peking University, 2018.
-        </li>
-
-        <li>
-          Distinguished Poster Award,
-          Peking University Academic Week, 2016.
-        </li>
-
+        <li>Reviewer for <em>BMC Infectious Diseases</em> — two manuscripts.</li>
+        <li>Invited reviewer for Gen² 2026 at ICLR 2026.</li>
       </ul>
 
-      <h2 id="education">Education and Training</h2>
+      <h2>Awards and Honors</h2>
+
+      <ul>
+        <li>Dean’s Doctoral Research Fellowship, UMass Boston, 2025.</li>
+        <li>Founder Scholarship, Peking University, 2019.</li>
+        <li>First-class Scholarship for Graduate Students, Peking University, 2018.</li>
+        <li>Second-class Scholarship for Graduate Students, Peking University, 2017.</li>
+        <li>Top-2 Distinguished Poster Award, Peking University Academic Week, 2016.</li>
+        <li>Lv Yichang Scholarship, Peking University, 2015.</li>
+        <li>Scholarship for Outstanding Students, Huazhong Agricultural University, 2010–2014.</li>
+        <li>National Encouragement Scholarship, Ministry of Education of China, 2011.</li>
+      </ul>
+
+      <h2 id="education">Work Experience</h2>
 
       <div class="timeline-item">
 
@@ -618,10 +743,28 @@
         </strong>
 
         <div class="timeline-date">
-          2025–Present · Advisor: Prof. Matthew K. Waldor
+          November 2025–Present · Boston, USA<br>
+          Advisor: Prof. Matthew K. Waldor
         </div>
 
       </div>
+
+      <div class="timeline-item">
+
+        <strong>
+          Postdoctoral Fellow —
+          University of Massachusetts Boston
+        </strong>
+
+        <div class="timeline-date">
+          June 2025–October 2025 · Boston, USA<br>
+          Advisors: Prof. Kourosh Zarringhalam and
+          Prof. Manoj T. Duraisingh
+        </div>
+
+      </div>
+
+      <h2>Education</h2>
 
       <div class="timeline-item">
 
@@ -632,8 +775,8 @@
         </strong>
 
         <div class="timeline-date">
-          2021–2025 · Advisors:
-          Prof. Kourosh Zarringhalam and
+          September 2021–May 2025 · Boston, USA<br>
+          Advisors: Prof. Kourosh Zarringhalam and
           Prof. Manoj T. Duraisingh
         </div>
 
@@ -643,11 +786,11 @@
 
         <strong>
           MS in Botany and Molecular Biology —
-          Peking University
+          Peking University, School of Life Sciences
         </strong>
 
         <div class="timeline-date">
-          2014–2020
+          2014–2020 · Beijing, China
         </div>
 
       </div>
@@ -656,12 +799,11 @@
 
         <strong>
           Visiting Student —
-          Sainsbury Laboratory,
-          University of Cambridge
+          Sainsbury Laboratory, University of Cambridge
         </strong>
 
         <div class="timeline-date">
-          2017
+          September–December 2017 · Cambridge, United Kingdom
         </div>
 
       </div>
@@ -674,7 +816,7 @@
         </strong>
 
         <div class="timeline-date">
-          2010–2014
+          2010–2014 · Wuhan, China
         </div>
 
       </div>
@@ -709,7 +851,7 @@
         <div class="sidebar-links">
 
           <a href="mailto:siye2@bwh.harvard.edu">
-            Email
+            siye2@bwh.harvard.edu
           </a>
 
           <a
@@ -720,13 +862,19 @@
             GitHub
           </a>
 
-          <!-- 把下面的 # 换成你的 Google Scholar 地址 -->
-          <a href="#">
+          <a
+            href="https://scholar.google.com/citations?user=Kpv1M6cAAAAJ&hl=zh-EN"
+            target="_blank"
+            rel="noopener"
+          >
             Google Scholar
           </a>
 
-          <!-- 把下面的 # 换成你的 ORCID 地址 -->
-          <a href="#">
+          <a
+            href="https://orcid.org/0000-0002-7206-1502"
+            target="_blank"
+            rel="noopener"
+          >
             ORCID
           </a>
 
@@ -753,6 +901,7 @@
           Functional genomics<br>
           Host–pathogen interactions<br>
           Transposon mutagenesis<br>
+          Parasitology<br>
           Machine learning
         </p>
 
